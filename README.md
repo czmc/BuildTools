@@ -19,7 +19,7 @@
 
 
          ./gradlew makeJni
-* option2: remote connect phone with wify 
+* option2: remote connect phone with wifi 
 
   connect usb and add <strong>local.properties</strong> property 
   that<br/>
