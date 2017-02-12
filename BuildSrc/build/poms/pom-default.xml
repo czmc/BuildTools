@@ -4,5 +4,25 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.czmc.gradle</groupId>
   <artifactId>BuildSrc</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
+  <name>A custom imageview that can add different style tag on corner</name>
+  <url>https://github.com/czmc/BuildTools</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>czmc</id>
+      <name>czmc</name>
+      <email>zxc6355533@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/czmc/BuildTools.git</connection>
+    <developerConnection>https://github.com/czmc/BuildTools.git</developerConnection>
+    <url>https://github.com/czmc/BuildTools</url>
+  </scm>
 </project>

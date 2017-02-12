@@ -3,15 +3,17 @@
 buildscript {
     repositories {
         jcenter()
-        maven {
-            url uri('C:/Users/Administrator/.m2/repository')
-        }
+
+//        maven {
+//            url uri('C:/Users/Mzone/.m2/repository')
+////            url "https://dl.bintray.com/czmc/maven"
+//        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.2'
         classpath 'com.czmc.gradle:BuildSrc:1.0.0'
 
-            // NOTE: Do not place your application dependencies here; they belong
+        // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
 }

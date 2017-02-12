@@ -23,7 +23,7 @@ uploadArchives {
             //    authentication(userName: "admin", password: "admin")
             // }
             //本地的Maven地址设置为D:/repos
-            repository(url: uri('C:\\Users\\Administrator\\.m2\\repository'))
+            repository(url: uri('C:\\Users\\Mzone\\.m2\\repository'))
         }
     }
 }

@@ -1,5 +1,17 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.4'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
 apply plugin: 'groovy'
-apply plugin: 'maven'
+//apply plugin: 'maven'
+apply from:'upload.gradle'
 
 dependencies {
     compile gradleApi()
@@ -10,19 +22,3 @@ repositories {
     mavenCentral()
 }
 
-//group和version在后面使用自定义插件的时候会用到
-group='com.czmc.plugin'
-version='1.0.0'
-
-uploadArchives {
-    repositories {
-        mavenDeployer {
-            //提交到远程服务器：
-             repository(url: "http://www.xxx.com/repos") {
-                authentication(userName: "admin", password: "admin")
-             }
-            //本地的Maven地址设置为D:/repos
-            repository(url: uri('C:\\Users\\Administrator\\.m2\\repository'))
-        }
-    }
-}
