@@ -12,7 +12,7 @@ install {
             project {
                 packaging 'jar'
                 // Add your description here
-                name 'A custom imageview that can add different style tag on corner'
+                name 'build tools plugin'
                 url siteUrl
                 // Set your license
                 licenses {
