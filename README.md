@@ -1,7 +1,7 @@
 # BuildTools
  Gradle plugin help build
 
-#quick start
+# quick start
     dependencies {
         classpath 'com.czmc.gradle:BuildSrc:1.0.1'
     }
